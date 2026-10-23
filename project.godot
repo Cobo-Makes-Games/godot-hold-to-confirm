@@ -1,0 +1,12 @@
+; Demo and test project for the Hold To Confirm add-on. Only addons/hold_to_confirm is the add-on.
+config_version=5
+
+[application]
+
+config/name="Hold To Confirm demo"
+run/main_scene="res://demo/demo.tscn"
+config/features=PackedStringArray("4.3")
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/hold_to_confirm/plugin.cfg")
